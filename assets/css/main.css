@@ -17,6 +17,21 @@ p{
 	padding: 0;
 }
 
+h1{
+  font-family: 'Special Elite';
+  font-size: 10rem;
+  text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;
+  color:#000000;
+}
+
+h2{
+  font-family: 'Special Elite';
+  font-size: 8rem;
+  text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;
+  color:#000000;
+}
+
+
 
 /*=====  End of General Page  ======*/
 
@@ -31,22 +46,28 @@ header .jumbotron-fluid{
 	margin-bottom: 0;
 }
 
-header .jumbotron-fluid h1{
-	font-family: 'Special Elite';
-	font-size: 10rem;
-	text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;
-	color:#000000;
-}
 
 /*=====  End of Banner  ======*/
 
 /*====================================
 *            Picture Rows            *
 ====================================*/
+ .scrolling-wrapper{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+    }
 
-.year-row img{
-	
+ .scrolling-wrapper .img {
+        display: inline-block;
+      }
+
+.container h2{
+  position: absolute;
 }
+  
+
+
 
 /*=====  End of Picture Rows  ======*/
 
@@ -60,6 +81,18 @@ header .jumbotron-fluid  h1 {
     font-size:4rem;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .clearfix .scrolling-wrapper img{
+    width: 100vw;
+    height:100vh;
+  }
+
+  @media screen and (max-width: 992px) {
+  header{
+    width: 100vw;
+    height:100%;
+  }
 
 
 /*=====  End of Media Query  ======*/
