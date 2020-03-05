@@ -217,6 +217,13 @@ header .jumbotron-fluid  h1 {
     height:100%;
   }
 
+  @media screen and (max-width: 992px){
+  h2{
+    position: absolute;
+    margin: 21rem 3.5rem;
+  }
+
+
 
 /*=====  End of Media Query  ======*/
 
