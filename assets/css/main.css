@@ -9,6 +9,9 @@ body{
 
 p{
 	font-family: 'Josefin Slab';
+	font-size: 1.8rem;
+	padding-top:5rem;
+	text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;
 }
 
 .container{
@@ -30,8 +33,16 @@ h2{
   text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;
   color:#000000;
 }
-
-
+h3{
+	font-family: 'Special Elite';
+	font-size: 2.5rem;
+	text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;
+}
+div{
+	margin: 0;
+	border:0;
+	padding: 0;
+}
 
 /*=====  End of General Page  ======*/
 
@@ -52,23 +63,135 @@ header .jumbotron-fluid{
 /*====================================
 *            Picture Rows            *
 ====================================*/
- .scrolling-wrapper{
+.scrolling-wrapper{
       overflow-x: scroll;
       overflow-y: hidden;
       white-space: nowrap;
-    }
-
- .scrolling-wrapper .img {
-        display: inline-block;
-      }
-
-.container h2{
-  position: absolute;
 }
+
+.scrolling-wrapper div{
+        display: inline-block;
+}
+
+.x0-tile-txt{
+	  position: absolute;
+	  margin: 15rem 0.5rem;
+	}
   
+.x0-group{
+	position: relative;
+}
 
+.x1-group{
+	position: relative;
+}
 
+.x1-txt{
+	display: block;
+	position: absolute;
+	background:;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	white-space: normal;
+	padding: 2rem;
+	visibility:hidden;
+}
 
+.x2-group{
+	position: relative;
+}
+
+.x2-txt{
+	display: block;
+	position: absolute;
+	background:;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	white-space: normal;
+	padding: 2rem;
+	visibility:hidden;
+}
+
+.x3-group{
+	position: relative;
+}
+
+.x3-txt{
+	display: block;
+	position: absolute;
+	background:;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	white-space: normal;
+	padding: 2rem;
+	visibility:hidden;
+}
+
+.x4-group{
+	position: relative;
+}
+
+.x4-txt{
+	display: block;
+	position: absolute;
+	background:;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	white-space: normal;
+	padding: 2rem;
+	visibility:hidden;
+}
+
+.x5-group{
+	position: relative;
+}
+
+.x5-txt{
+	display: block;
+	position: absolute;
+	background:;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	white-space: normal;
+	padding: 2rem;
+	visibility:hidden;
+}
+
+.x1-group:hover .x1-txt{
+	visibility: visible;
+	background: rgba(255, 255, 255, 0.4);
+
+}
+.x2-group:hover .x2-txt{
+	visibility: visible;
+	background: rgba(255, 255, 255, 0.4);
+
+}
+.x3-group:hover .x3-txt{
+	visibility: visible;
+	background: rgba(255, 255, 255, 0.4);
+
+}
+.x4-group:hover .x4-txt{
+	visibility: visible;
+	background: rgba(255, 255, 255, 0.4);
+
+}
+.x4-group:hover .x4-txt{
+	visibility: visible;
+	background: rgba(255, 255, 255, 0.4);
+
+}
+.x5-group:hover .x5-txt{
+	visibility: visible;
+	background: rgba(255, 255, 255, 0.4);
+
+}
 /*=====  End of Picture Rows  ======*/
 
 
